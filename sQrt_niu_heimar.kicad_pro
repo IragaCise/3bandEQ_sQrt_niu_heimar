@@ -111,7 +111,7 @@
       },
       "rules": {
         "max_error": 0.005,
-        "min_clearance": 0.0,
+        "min_clearance": 0.19,
         "min_connection": 0.0,
         "min_copper_edge_clearance": 0.0,
         "min_hole_clearance": 0.25,
@@ -175,6 +175,7 @@
         0.0,
         0.0,
         0.3,
+        0.4,
         0.5,
         1.0
       ],
@@ -194,14 +195,7 @@
     "equivalence_files": []
   },
   "erc": {
-    "erc_exclusions": [
-      "pin_to_pin|3378200|571500|a3c6f15f-83eb-4c48-8678-344381055dfd|626a4160-4ab0-4c71-9ba4-ed36bc8e0ad8|/ce302b7c-0aba-4af1-aee7-b7755e54b866|/ce302b7c-0aba-4af1-aee7-b7755e54b866|/ce302b7c-0aba-4af1-aee7-b7755e54b866",
-      "pin_to_pin|647700|2705100|a1978ffa-3bd8-4244-83b1-210733697ced|22f6591c-629e-4eec-a7af-47f633bc7fd7|/ce302b7c-0aba-4af1-aee7-b7755e54b866|/ce302b7c-0aba-4af1-aee7-b7755e54b866|/ce302b7c-0aba-4af1-aee7-b7755e54b866",
-      "pin_to_pin|647700|2717800|f58dbd98-c8a6-4910-874b-d681496b2ec0|22f6591c-629e-4eec-a7af-47f633bc7fd7|/ce302b7c-0aba-4af1-aee7-b7755e54b866|/ce302b7c-0aba-4af1-aee7-b7755e54b866|/ce302b7c-0aba-4af1-aee7-b7755e54b866",
-      "power_pin_not_driven|1981200|2311400|e57fc4ec-4f57-411e-9c3d-3549cd18b6d9|00000000-0000-0000-0000-000000000000|||",
-      "power_pin_not_driven|2641600|635000|d09aa93f-90a6-4175-8ce4-4ec36210133e|00000000-0000-0000-0000-000000000000|||",
-      "power_pin_not_driven|457200|2628900|71169df2-b87e-4fdf-80c7-62dd338c58ec|00000000-0000-0000-0000-000000000000|||"
-    ],
+    "erc_exclusions": [],
     "meta": {
       "version": 0
     },
@@ -416,7 +410,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "sQrt(niu heimar).kicad_pro",
+    "filename": "sQrt_niu_heimar.kicad_pro",
     "version": 1
   },
   "net_settings": {
